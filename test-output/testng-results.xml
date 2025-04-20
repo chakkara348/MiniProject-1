@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-20T20:28:02 IST" name="Suite" finished-at="2025-04-20T20:29:16 IST" duration-ms="74364">
+    <groups>
+    </groups>
+    <test started-at="2025-04-20T20:28:02 IST" name="Test" finished-at="2025-04-20T20:29:16 IST" duration-ms="74364">
+      <class name="Test.TC_007_InCart_product_check">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TC_007_InCart_product_check@38467116]" started-at="2025-04-20T20:28:02 IST" name="setUp" finished-at="2025-04-20T20:28:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:Test.TC_007_InCart_product_check@38467116]" started-at="2025-04-20T20:28:07 IST" name="testDetails" finished-at="2025-04-20T20:28:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingAndLoadingBrowser(java.lang.String,java.lang.String)[pri:0, instance:Test.TC_007_InCart_product_check@38467116]" started-at="2025-04-20T20:28:07 IST" name="launchingAndLoadingBrowser" finished-at="2025-04-20T20:28:10 IST" duration-ms="3571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingBrowser -->
+        <test-method signature="checkingProductAddedInCart()[pri:0, instance:Test.TC_007_InCart_product_check@38467116]" started-at="2025-04-20T20:28:10 IST" name="checkingProductAddedInCart" finished-at="2025-04-20T20:29:16 IST" duration-ms="65876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingProductAddedInCart -->
+        <test-method is-config="true" signature="ClosingBrowser()[pri:0, instance:Test.TC_007_InCart_product_check@38467116]" started-at="2025-04-20T20:29:16 IST" name="ClosingBrowser" finished-at="2025-04-20T20:29:16 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingBrowser -->
+      </class> <!-- Test.TC_007_InCart_product_check -->
+      <class name="Test.TC_001_Test_SignUp_Option">
+        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:Test.TC_001_Test_SignUp_Option@f1da57d]" started-at="2025-04-20T20:28:02 IST" name="reportInitialization" finished-at="2025-04-20T20:28:02 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialization -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TC_001_Test_SignUp_Option@f1da57d]" started-at="2025-04-20T20:28:02 IST" name="setUp" finished-at="2025-04-20T20:28:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:Test.TC_001_Test_SignUp_Option@f1da57d]" started-at="2025-04-20T20:28:02 IST" name="testDetails" finished-at="2025-04-20T20:28:02 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingAndLoadingBrowser(java.lang.String,java.lang.String)[pri:0, instance:Test.TC_001_Test_SignUp_Option@f1da57d]" started-at="2025-04-20T20:28:02 IST" name="launchingAndLoadingBrowser" finished-at="2025-04-20T20:28:06 IST" duration-ms="4406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingBrowser -->
+        <test-method signature="checkingSignUpMenuAvailability()[pri:0, instance:Test.TC_001_Test_SignUp_Option@f1da57d]" started-at="2025-04-20T20:28:06 IST" name="checkingSignUpMenuAvailability" finished-at="2025-04-20T20:28:06 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingSignUpMenuAvailability -->
+        <test-method is-config="true" signature="ClosingBrowser()[pri:0, instance:Test.TC_001_Test_SignUp_Option@f1da57d]" started-at="2025-04-20T20:28:06 IST" name="ClosingBrowser" finished-at="2025-04-20T20:28:07 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingBrowser -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:Test.TC_001_Test_SignUp_Option@f1da57d]" started-at="2025-04-20T20:29:16 IST" name="closeReport" finished-at="2025-04-20T20:29:17 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- Test.TC_001_Test_SignUp_Option -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
