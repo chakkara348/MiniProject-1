@@ -29,10 +29,9 @@ public class LoginPage extends DemoBlazeWebPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	public LoginPage checkLoginHeading(String expectedHeading) throws InterruptedException {
+	public LoginPage checkLoginHeading() throws InterruptedException {
 		Thread.sleep(5000);
-		String actualHeading = actualElementText(loginHeading);
-		Assert.assertEquals(actualHeading, expectedHeading);
+		optionIsDisplayedCheck(loginHeading);
 		return this;
 	}
 

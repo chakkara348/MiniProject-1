@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-<parameter name="url" value="https://www.demoblaze.com/"></parameter>
-  <test thread-count="5" name="Test">
-  <parameter name="browser" value="chrome"></parameter>
-    <classes>
-      <class name="Test.TC_001_Test_SignUp_Option"/>
-      <class name="Test.TC_007_InCart_product_check"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+	<parameter name="url" value="https://www.demoblaze.com/"></parameter>
+	<listeners>
+	<listener class-name="Utils.Listerners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="Test.TC_001_Test_001_SignUp_Option" />
+			<class name="Test.TC_001_Test_002_SignUp_Heading" />
+			<class name="Test.TC_001_Test_003_SignUpTest_Invalid_Scenario1" />
+			<class name="Test.TC_001_Test_004_SignUpTest_Invalid_Scenario2" />
+			<class name="Test.TC_001_Test_005_SignUpTest_Invalid_Scenario3" />
+			<class name="Test.TC_001_Test_006_SignUpTest_Valid_Scenario" />
+			<class name="Test.TC_002_Test_001_Verify_Login_Option" />
+			<class name="Test.TC_002_Test_002_Verify_Login_Pop_up_Heading" />
+			<class name="Test.TC_002_Test_003_Login_with_Invalid_credentials" />
+			<class name="Test.TC_002_Test_004_Login_with_Invalid_credentials_as_username_as_empty" />
+			<class name="Test.TC_002_Test_005_Check_login_with_password_as_empty" />
+			<class name="Test.TC_002_Test_006_Login_with_valid_Credentials" />
+			<class name="Test.TC_002_Test_007_Login_with_Invalid_credential1" />
+			<class name="Test.TC_003_Test_001_Logo_check" />
+			<class name="Test.TC_003_Test_002_Menu_Check" />
+			<class name="Test.TC_003_Test_003_Category_check" />
+			<class name="Test.TC_004_Test_001_Product_Phone_details_check" />
+			<class name="Test.TC_004_Test_002_Product_Laptop_details_check" />
+			<class name="Test.TC_004_Test_003_Product_Monitor_details_check" />
+			<class name="Test.TC_005_Test_001_Adding_Product_In_Cart_delete_cart_and_check_total" />
+			<class name="Test.TC_006_Test_001_Place_order_with_purchase" />
+			<class name="Test.TC_007_Test_001_Verify_logout" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!--
+Suite -->

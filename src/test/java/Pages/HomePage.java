@@ -135,8 +135,9 @@ public class HomePage extends DemoBlazeWebPage {
 		return this;
 	}
 	
-	public HomePage clickingHome() {
+	public HomePage clickingHome() throws InterruptedException {
 		homeMenuElement.click();
+		Thread.sleep(4000);
 		return this;
 	}
 
@@ -155,8 +156,9 @@ public class HomePage extends DemoBlazeWebPage {
 		return new MonitorCategoryPage(driver);
 	}
 
-	public CartPage clickCart() {
+	public CartPage clickCart() throws InterruptedException {
 		cartMenuElement.click();
+		Thread.sleep(5000);
 		return new CartPage(driver);
 	}
 	

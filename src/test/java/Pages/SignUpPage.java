@@ -55,9 +55,10 @@ public class SignUpPage extends DemoBlazeWebPage {
 		return this;
 	}
 	
-	public void signUpValidation(String testType,String expectedResult) {
+	public SignUpPage signUpValidation(String testType,String expectedResult) {
 		
 		alertValidation(testType, expectedResult);
+		return this;
 	}
 
 
